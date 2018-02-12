@@ -1,0 +1,382 @@
+<?php
+    include 'core/init.php'
+    
+    ?>
+
+<html>
+<head>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="support.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <link rel="stylesheet" type="text/css" href="support_internal.css">
+
+<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:700' rel='stylesheet' type='text/css'>
+
+<link async href="http://fonts.googleapis.com/css?family=Passero%20One" data-generated="http://enjoycss.com" rel="stylesheet" type="text/css"/>
+
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>    
+    
+<link rel="stylesheet" type="text/css" href="clockpicker/assets/css/bootstrap.min.css">   
+
+<link rel="stylesheet" type="text/css" href="clockpicker/dist/bootstrap-clockpicker.min.css">
+
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="interact.js"></script>
+
+<script src="highcharts.js"></script>
+<script src="https://code.highcharts.com/highcharts-3d.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/stellar.js/0.6.2/jquery.stellar.min.js"></script>
+<script src="https://use.edgefonts.net/aladin;aclonica;fredericka-the-great;nosifer;merienda-one;bigshot-one.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/4.12.0/bootstrap-social.css"></script>
+<script type="text/javascript" src="clockpicker/dist/bootstrap-clockpicker.min.js"></script>    
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js"></script>
+    
+</head>
+
+<body>
+
+    <img id="img1" class="img-responsive" src="run_4.jpg">
+    
+    
+    <a onclick="scroll_down();" >  <i class="fa fa-chevron-circle-down fa-5X scroller"></i>  </a>
+        
+        
+<header>
+    
+    <div class="container-fluid">
+    <div class="col-md-8 col-md-offset-2" id="head">
+      <h1 id="head">
+        Is Running your life???
+    </h1>
+        <br><br><br>
+      
+    </div>
+  </div>
+    
+  <i class="fa fa-angle-double-down arrow"></i>
+</header>
+    
+    
+    <div class="first_scroll">
+        
+    
+        
+        
+    <div class="container-fluid">
+  <div class="row top">
+      
+      <div class="col-md-4">
+<img class="img-responsive board" src="board.png">
+    </div>
+      <br><br>
+    <div class="col-md-4 info">
+        <h1 class="headline headline_2"> Major Marathons in 2016</h1> 
+       <a href="http://www.rundisney.com/disneyworld-marathon/" target="_blank"> <h2 class="point">1. Walt Disney World Marathon, FL USA, Jan</h2> </a>
+        <a href="http://www.baa.org/races/boston-marathon.aspx" target="_blank"><h2 class="point">2. Boston Marathon, MA USA, April</h2></a>
+        <a href="http://www.bsim.org/Event_Information/Marathon.htm" target="_blank"><h2 class="point">3. Big Sur International Marathon, CA USA, Late May/Early June</h2></a>
+        <a href="http://www.runrocknroll.com/" target="_blank"><h2 class="point" >4. Rock 'n' Roll Las Vegas Marathon, CA USA, Nov</h2></a>
+        <a href="http://www.tcsnycmarathon.org/" target="_blank"><h2 class="point">5. New York City Marathon, NY USA, Nov</h2></a>
+      </div>
+    <div class="col-md-4 info">
+<img class="img-responsive tree" src="tree1.jpg">
+      </div>
+    </div>
+    </div>
+
+    <div class="container-fluid">
+<div class="row grass">
+    
+<div class="col-md-2 shoe1">
+<img class="img-responsive" src="shoe_1.jpg">
+</div>
+<div class="col-md-2 shoe1">
+<img class="img-responsive" src="shoe_2.png">
+</div>
+<div class="col-md-2 shoe1">
+<img class="img-responsive" src="shoe_3.png">
+</div>
+<div class="col-md-2 shoe1">
+<img class="img-responsive" src="shoe_4.png">
+</div>
+<div class="col-md-2 shoe1">
+<img class="img-responsive" src="shoe_5.png">
+</div>
+<div class="col-md-2 shoe1">
+<img class="img-responsive" src="shoe_6.jpg">
+</div>
+
+</div>
+    </div>
+    
+   
+
+    <img class="img-responsive" id = "tur" src="turtle.jpg"/>
+    
+<main>
+    
+    <div class="container-fluid page1">
+  <div class="row">
+    
+    <div class="col-md-8">
+       
+        
+        <div class="like">
+            
+           
+            
+         <i id="number">     </i>  
+            <br>
+            <a onclick="likeadd();">    <i class="fa fa-thumbs-up fa-5x" id="thumbs_up"></i>  </a>
+
+            
+        </div>
+        
+        
+        <div class="social social_back">
+            <ul>
+                <a href="https://www.facebook.com/rohit.gulia.54" target="_blank"> <li> <i class="fa fa-facebook"></i> </li> </a>
+            <a href="https://www.linkedin.com/in/rohitgulia" target="_blank"> <li> <i class="fa fa-linkedin"></i> </li> </a>  
+        </ul>
+                
+                </div>
+        
+      <div class="wrap" id="scene">  
+        <h2 class="headline text-center">Tell world why do you run?</h2>
+        <br><br>
+        
+          <div class="true-center">
+
+<div class="row" id="buttons">
+
+<div class="col-md-4">
+<button type="button" class="btn btn-default btn-lg" id="option1" onclick="likeaddoption1();">For Fun</button>
+</div>
+
+<div class="col-md-4">
+<button type="button" class="btn btn-primary btn-lg" id="option2" onclick="likeaddoption2();">To Take Pets Out</button>
+</div>
+    
+<div class="col-md-4">
+<button type="button" class="btn btn-success btn-lg" id="option3"  onclick="likeaddoption3();">To Make New Friends</button>
+</div>
+
+</div>
+<br><br>
+<div class="row">   
+<div class="col-md-4">
+<button type="button" class="btn btn-info btn-lg" id="option4"  onclick="likeaddoption4();" >To See Girls/Boys</button>
+</div>
+
+<div class="col-md-4">
+<button type="button" class="btn btn-warning btn-lg" id="option5"  onclick="likeaddoption5();"  >To Stay Healthy</button>
+</div>
+    
+<div class="col-md-4">
+<button type="button" class="btn btn-danger btn-lg" id="option6"  onclick="likeaddoption6();"   >I Don't Know</button>
+</div>
+
+</div>
+<br><br>
+<div class= "row">
+<div class="col-md-4">
+<button type="button" class="btn btn-danger btn-lg" id="btnclk">
+ I Don't Want To Tell <i class="fa fa-thumbs-down"></i>
+    </button>    
+</div>
+              
+</div>
+<br><br><br><br>
+ <div class= "row">             
+<div class="col-md-4">
+    <button type="button" class="btn2 btn-success btn-lg" id="btnclk2">
+        Bring it Back u idiot!! <i class="fa fa-smile-o"></i>
+        </button>
+    </div>              
+</div>
+              
+
+</div>
+</div>
+        <div class="row"> <div class="col-md-6" id="container"></div>  </div>
+    </div>
+      
+      <div class="col-md-2 feed">
+      
+   <!-- start feedwind code --><script type="text/javascript">document.write('\x3Cscript type="text/javascript" src="' + ('https:' == document.location.protocol ? 'https://' : 'http://') + 'feed.mikle.com/js/rssmikle.js">\x3C/script>');</script><script type="text/javascript">(function() {var params = {rssmikle_url: "http://www.halfmarathons.net/feed/",rssmikle_frame_width: "400",rssmikle_frame_height: "500",frame_height_by_article: "0",rssmikle_target: "_blank",rssmikle_font: "Arial, Helvetica, sans-serif",rssmikle_font_size: "12",rssmikle_border: "off",responsive: "off",rssmikle_css_url: "",text_align: "left",text_align2: "left",corner: "off",scrollbar: "on",autoscroll: "on",scrolldirection: "up",scrollstep: "3",mcspeed: "20",sort: "Off",rssmikle_title: "on",rssmikle_title_sentence: "",rssmikle_title_link: "",rssmikle_title_bgcolor: "#0066FF",rssmikle_title_color: "#FFFFFF",rssmikle_title_bgimage: "",rssmikle_item_bgcolor: "#FFFFFF",rssmikle_item_bgimage: "",rssmikle_item_title_length: "75",rssmikle_item_title_color: "#0066FF",rssmikle_item_border_bottom: "on",rssmikle_item_description: "on",item_link: "off",rssmikle_item_description_length: "180",rssmikle_item_description_color: "#666666",rssmikle_item_date: "gl1",rssmikle_timezone: "Etc/GMT",datetime_format: "%b %e, %Y %l:%M %p",item_description_style: "text+tn",item_thumbnail: "full",item_thumbnail_selection: "auto",article_num: "15",rssmikle_item_podcast: "off",keyword_inc: "",keyword_exc: ""};feedwind_show_widget_iframe(params);})();</script><div style="font-size:10px; text-align:center; width:400px;"><a href="http://feed.mikle.com/" target="_blank" style="color:#CCCCCC;">RSS Feed Widget</a><!--Please display the above link in your web page according to Terms of Service.--></div><!-- end feedwind code --><!--  end  feedwind code -->
+          
+      
+      </div>
+      
+         <img class="img-responsive super" src="superman2.jpg"/>
+ 
+        </div> </div>
+        
+    
+    <br><br>
+        <div class="container-fluid secondlast-page">
+             
+            <h2 class="headline text-center">Ask your friend to join you for a jog</h2>
+            <br><br><br><br>
+            
+            <form action="" id="form" role="form">  //new addition
+                <div class="row">
+                
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="col-md-2">   <label class=" control-label">Your Name</label> </div>
+                    <div class="col-md-5 controls-row" >  <input type="text" name="name" class="form-control textbox input-lg name" id="focusedInput"  placeholder="Enter your name to be appeared on message" required > </div>
+                </div>
+                </div>
+                
+                <br><br>
+                
+              //new addition  <div class="row">
+                
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="col-md-2">   <label class="control-label">Select Your Region</label> </div>
+                    <div class="col-md-5"> 
+                   
+                        
+                         
+                    <label class="radio-inline radio1"> <input  class="radio_usa" type="radio" name="optradio" checked="checked" > USA  </label>
+                    <label class="radio-inline radio2">  <input  class="radio_outside" type="radio" name="optradio"> Outside USA    </label>
+                    
+                        
+                        
+                            </div>
+                </div>
+                </div> //new addition
+                
+                
+                    
+                <br><br>
+                
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+              <div class="col-md-2">    <label class=" control-label phone_text">Phone Number of Friend</label> </div>
+                <div class="row">
+                        <div class="col-md-5"> <input type="number" name="phone" class="form-control textbox input-lg phone" id="focusedInput" placeholder="Enter phone number of friend you want to jog with" /> </div>
+                     
+                     <div class="col-md-4 alert alert-info" id="line">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                         <strong>Info!</strong> Sending Request by PHONE is available in US only. Please leave it BLANK if you are OUTSIDE US and enter EMAIL ID instead. <br> * LYCAMOBILE USERS MAY FACE DIFFICULTY IN GETTING PHONE ALERT. </br>
+  </div>
+                     
+                      
+                    </div>
+                        </div>
+                </div>
+                
+                    <br><br>
+                     <div class="row">
+    
+                     <div class="col-md-8 col-md-offset-2">
+                         <div class="col-md-2">        <label class=" control-label">Email Id of Friend</label> </div>
+                         <div class="col-md-4">  <input type="email" name="email" class="form-control textbox input-lg email" id="focusedInput" placeholder="Enter Email Id of your friend"/> </div>
+                    </div>  
+                </div>
+                    
+                <br><br>
+                      <div class="row">
+                     <div class="col-md-8 col-md-offset-2">
+                         <div class="col-md-2">     <label class=" control-label">Place for Jog</label> </div>
+                         <div class="col-md-4">   <input type="text" name="place" class="form-control textbox input-lg place" id="focusedInput" placeholder="Enter details about the place to meet for jogging" required/> </div>
+                    </div>  
+                </div>
+                
+                <br><br>
+                
+                <div class="row">
+                     <div class="col-md-10 col-md-offset-2">
+                         <div class="input-group clockpicker col-md-5" data-autoclose="true">
+                   <div class="col-md-11">
+                 <div class="col-md-4">        <label class=" control-label">Time of Jog</label> </div>
+                             <div class="col-md-7">  <input type="text" name="time" twelvehour="true" class="form-control textbox input-lg time" id="focusedInput" placeholder="Enter time to meet up" required/> </div>
+                             </div>          
+                         </div>
+                    </div> 
+                </div>
+                
+                   <br><br>
+                    
+                    
+                    
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="text-center btn-lg">  
+                        <div class="col-md-4">  <input type="submit" id="submit" value="SEND JOG REQUEST" class="btn btn-primary"/> 
+                            
+                            <br><br>
+                        <div class="waiting_circle">    <i class="fa fa-spinner fa-pulse fa-2X"></i> </div>
+                            
+                            <div class=" msg_alert_success alert alert-success">
+    <strong>Success!</strong> Request sent successfully
+  </div>
+                    
+                            <div class="msg_alert_fail alert alert-danger">
+    
+    <strong>Danger!</strong> Request Failed!! Enter Phone Number or Email Id
+  </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+            
+            </div>
+
+        </form> 
+
+    </div>
+        
+    </main>
+    
+    <div class="container-fluid last_page">
+<div > <h1 id="quotes">What Time Is It? Time To Run</h1> </div>
+        <div class="row essentials">
+    
+<div class="col-md-2">
+<img class="img-responsive last" src="fitbit.jpg">
+</div>
+<div class="col-md-2">
+<img class="img-responsive last" src="earphone.jpg">
+</div>
+<div class="col-md-2">
+<img class="img-responsive last" src="shoe_last.jpg">
+</div>
+<div class="col-md-2">
+<img class="img-responsive last" src="running_short.jpg">
+</div>
+<div class="col-md-2">
+<img class="img-responsive last" src="sunglass.jpg">
+</div>
+<div class="col-md-2">
+<img class="img-responsive last" src="bottle.png">
+</div>
+
+</div>
+    </div>
+
+    
+    <div class="credit">  <a href="credit.html">Credit</a> </div>
+    
+    
+    </div>
+    
+</body>
+    
+    
+</html>

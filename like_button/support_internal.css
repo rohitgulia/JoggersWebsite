@@ -1,0 +1,482 @@
+
+
+/* Ignore => Useless Header Styles */
+header {
+    z-index: 2;
+    top:-800px;
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+
+main{
+    z-index: 2;
+    background: url('pattern_2.png') repeat scroll 50% 0;
+}
+
+#head {
+    top:-30px;
+color: #fff;
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 50px #ff0000, 0 0 75px #ff0000;
+	letter-spacing: 5px;
+	font: 60px 'MisoRegular';
+}
+
+#img1{
+z-index:1;
+}
+
+.headline{
+    font-family: aclonica, sans-serif;
+    font-size: 40px;
+}
+
+.headline_2{
+    color: red;
+}
+.headline_2:hover{
+    color: limegreen;
+}
+
+.point{
+    font-family: aladin, sans-serif;
+    color: deepskyblue;
+}
+
+.point:hover{
+    color:purple;
+}
+
+
+
+#quotes{
+    position: relative;
+    z-index: 1;
+    text-align: center;
+   font-family: fredericka-the-great, sans-serif;
+    color: blueviolet;
+    
+}
+
+header i.fa-angle-double-down { 
+  font-size: 60px;
+  position: absolute;
+  bottom: 1%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  color: #111;
+}
+header i.fa-angle-double-down:after {
+  content: 'If YES then Start Scrolling Down';
+    color:black;
+  position: absolute;
+  bottom: 100%;
+  left: -35px;
+  font-size: 20px;
+  width: 304%;
+}
+
+
+
+/*new stuff */
+.scroller{
+    position: fixed;
+    z-index: 2;
+    right: 0;
+    bottom: 300;
+    opacity: 0.4;
+    
+    
+}
+
+.scroller .fa-chevron-circle-down :hover{
+    opacity: 1;
+    z-index: 2;
+    
+}
+
+
+.shoe1{
+    
+    opacity:0;
+}
+
+.super{
+    position: absolute;
+    z-index: 2;
+    opacity: 0.1;
+}
+
+
+#number{
+    font-family: nosifer, fantasy;
+    opacity: 0;
+    font-size: 40px;
+    color: red;  
+}
+
+/* running man */
+.board{
+    bottom:200px;
+    position: relative;
+}
+
+
+
+
+
+/* social */
+
+.like{
+    z-index: 2;
+  opacity: 0.4;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    
+}
+
+.like .fa-thumbs-up:hover{
+    opacity: 1;
+    z-index: 2;
+    color:deeppink;
+    transform: rotate(20deg);
+    
+}
+
+.social {
+    margin: 0;
+    padding: 0;
+}
+
+.social ul {
+    margin: 0;
+    padding: 5px;
+}
+
+
+.social ul li {
+    margin: 5px;
+    list-style: none outside none;
+    display: inline-block;
+}
+
+
+.social{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+       z-index: 3000;
+}
+
+.social i{
+    
+    opacity: 0.4;
+    width: 60px;
+    height: 60px;
+    color: #FFF;
+    background-color: #909AA0;
+    font-size: 28px;
+    text-align:center;
+    padding-top: 15px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.social .fa-facebook:hover {
+    opacity: 1;
+    background-size: 20;
+    background: #4060A5;
+}
+
+.social .fa-linkedin:hover { 
+    opacity: 1;
+    background: #0094BC;
+}
+
+.end{
+    z-index: 1;
+    opacity: 0.5;
+    filter: blur(5px);
+   
+}
+
+/* Create huge scrolling area (imitates height of a page) */
+main { padding: 0.1px 0 900px 0; overflow: hidden; }
+
+/* Styles for wrap for demo */
+#tur{
+    opacity: 0.9;
+   position: relative;
+    z-index: 2;
+    height: 15%;
+    left: 5%;
+}
+
+
+.credit{
+    text-align: right;
+    
+    z-index: 2;
+    font-family: cursive;
+    font-size: 20px;
+    position: relative;
+    
+}
+
+
+.btn2{
+    opacity:0;
+}
+
+#container{
+    min-width: 410px; 
+    max-width: 900px;
+     height: 500px;
+    bottom: -1000;
+    position: absolute;
+    width:800px;
+    margin-left: 200;
+    margin-right: auto;
+
+}
+
+
+.secondlast-page{
+    bottom: -800px;
+    position: relative;
+    
+}
+
+.control-label{
+    font-family: merienda-one, cursive;
+    font-size: 20px;
+}
+
+
+                                                             /*new addition*/
+.radio1{
+    font-family: merienda-one, cursive;
+    font-size: 20px;
+}
+
+.radio2{
+    font-family: merienda-one, cursive;
+    font-size: 20px;
+}
+
+
+#line{
+    opacity: 0;
+}
+
+.msg_alert_success{
+    
+    opacity: 0;
+}
+
+.msg_alert_fail{
+    
+    opacity: 0;
+    bottom:80px;
+    position: relative;
+}
+
+.waiting_circle{
+    
+    opacity: 0;
+}
+
+
+
+.right_side{
+    background-color: aqua;
+}
+
+.true-center {
+  position: absolute;
+  top: 200;
+  bottom: 0;
+  left: -10;
+  right: 10;
+  margin: auto;
+  height: 106px;
+  width: 1000px;
+}
+.btn {
+  opacity: 1;
+  position: relative;
+  border: 0 !important;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  font-weight: bold !important;
+  -webkit-border-radius: 10px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 10px;
+  -moz-background-clip: padding;
+  border-radius: 10px;
+  background-clip: padding-box;
+  -webkit-transition: all 50ms ease;
+  -moz-transition: all 50ms ease;
+  -o-transition: all 50ms ease;
+  transition: all 50ms ease;
+  border: 0;
+  text-shadow: 0px 1px 0px #999999;
+  background-color: #cccccc;
+  -webkit-box-shadow: 0px 6px 0px #999999;
+  -moz-box-shadow: 0px 6px 0px #999999;
+  box-shadow: 0px 6px 0px #999999;
+}
+.btn:focus {
+  outline: 0;
+}
+.btn:hover {
+  top: 2px;
+}
+.btn:active {
+  top: 6px;
+}
+.btn:hover {
+  border: 0;
+  background-color: #d9d9d9 !important;
+  -webkit-box-shadow: 0px 4px 0px #999999;
+  -moz-box-shadow: 0px 4px 0px #999999;
+  box-shadow: 0px 4px 0px #999999;
+}
+.btn:active {
+  -webkit-box-shadow: inset 0px 3px 0px #999999;
+  -moz-box-shadow: inset 0px 3px 0px #999999;
+  box-shadow: inset 0px 3px 0px #999999;
+}
+.btn-primary {
+  border: 0;
+  text-shadow: 0px 1px 0px #3071a9;
+  background-color: #428bca;
+  -webkit-box-shadow: 0px 6px 0px #3071a9;
+  -moz-box-shadow: 0px 6px 0px #3071a9;
+  box-shadow: 0px 6px 0px #3071a9;
+}
+.btn-primary:hover {
+  border: 0;
+  background-color: #5697d0 !important;
+  -webkit-box-shadow: 0px 4px 0px #3071a9;
+  -moz-box-shadow: 0px 4px 0px #3071a9;
+  box-shadow: 0px 4px 0px #3071a9;
+}
+.btn-primary:active {
+  -webkit-box-shadow: inset 0px 3px 0px #3071a9;
+  -moz-box-shadow: inset 0px 3px 0px #3071a9;
+  box-shadow: inset 0px 3px 0px #3071a9;
+}
+.btn-success {
+  border: 0;
+  text-shadow: 0px 1px 0px #449d44;
+  background-color: #5cb85c;
+  -webkit-box-shadow: 0px 6px 0px #449d44;
+  -moz-box-shadow: 0px 6px 0px #449d44;
+  box-shadow: 0px 6px 0px #449d44;
+}
+.btn-success:hover {
+  border: 0;
+  background-color: #6ec06e !important;
+  -webkit-box-shadow: 0px 4px 0px #449d44;
+  -moz-box-shadow: 0px 4px 0px #449d44;
+  box-shadow: 0px 4px 0px #449d44;
+}
+.btn-success:active {
+  -webkit-box-shadow: inset 0px 3px 0px #449d44;
+  -moz-box-shadow: inset 0px 3px 0px #449d44;
+  box-shadow: inset 0px 3px 0px #449d44;
+}
+.btn-info {
+  border: 0;
+  text-shadow: 0px 1px 0px #31b0d5;
+  background-color: #5bc0de;
+  -webkit-box-shadow: 0px 6px 0px #31b0d5;
+  -moz-box-shadow: 0px 6px 0px #31b0d5;
+  box-shadow: 0px 6px 0px #31b0d5;
+}
+.btn-info:hover {
+  border: 0;
+  background-color: #70c8e2 !important;
+  -webkit-box-shadow: 0px 4px 0px #31b0d5;
+  -moz-box-shadow: 0px 4px 0px #31b0d5;
+  box-shadow: 0px 4px 0px #31b0d5;
+}
+.btn-info:active {
+  -webkit-box-shadow: inset 0px 3px 0px #31b0d5;
+  -moz-box-shadow: inset 0px 3px 0px #31b0d5;
+  box-shadow: inset 0px 3px 0px #31b0d5;
+}
+.btn-warning {
+  border: 0;
+  text-shadow: 0px 1px 0px #ec971f;
+  background-color: #f0ad4e;
+  -webkit-box-shadow: 0px 6px 0px #ec971f;
+  -moz-box-shadow: 0px 6px 0px #ec971f;
+  box-shadow: 0px 6px 0px #ec971f;
+}
+.btn-warning:hover {
+  border: 0;
+  background-color: #f2b866 !important;
+  -webkit-box-shadow: 0px 4px 0px #ec971f;
+  -moz-box-shadow: 0px 4px 0px #ec971f;
+  box-shadow: 0px 4px 0px #ec971f;
+}
+.btn-warning:active {
+  -webkit-box-shadow: inset 0px 3px 0px #ec971f;
+  -moz-box-shadow: inset 0px 3px 0px #ec971f;
+  box-shadow: inset 0px 3px 0px #ec971f;
+}
+.btn-danger {
+  border: 0;
+  text-shadow: 0px 1px 0px #c9302c;
+  background-color: #d9534f;
+  -webkit-box-shadow: 0px 6px 0px #c9302c;
+  -moz-box-shadow: 0px 6px 0px #c9302c;
+  box-shadow: 0px 6px 0px #c9302c;
+}
+.btn-danger:hover {
+  border: 0;
+  background-color: #de6764 !important;
+  -webkit-box-shadow: 0px 4px 0px #c9302c;
+  -moz-box-shadow: 0px 4px 0px #c9302c;
+  box-shadow: 0px 4px 0px #c9302c;
+}
+.btn-danger:active {
+  -webkit-box-shadow: inset 0px 3px 0px #c9302c;
+  -moz-box-shadow: inset 0px 3px 0px #c9302c;
+  box-shadow: inset 0px 3px 0px #c9302c;
+}
+.btn-link {
+  text-shadow: none;
+  background: none !important;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.btn-link:hover {
+  border: 0;
+  background: none !important;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  top: 0;
+}
+.btn-link:active {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  top: 0;
+}
